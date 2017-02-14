@@ -3,17 +3,6 @@
  * Copyright 2017 Start Bootstrap
  * Licensed under Creative Commons 3.0 or higher)
  */
-/* VARIABLES */
-
-:root {
-    --white-bg: rgba(255,255,255,0.6);
-    --white-solid-bg: rgba(255,255,255,1.0);
-    --light-blue-bg: rgba(132,208,240,0.6);
-    --light-grey-bg: rgba(245,245,245,0.4);
-    --dark-blue: rgba(45,59,106,1.0);
-    --mid-blue: rgba(76,99,167,1.0);
-    --rust-brown: rgba(106,92,45,1.0);
-}
 
 /* FONTS */
 @font-face {
@@ -58,7 +47,7 @@
 
 h1, h2, h3, h4, h5, h6, .blockquote, .lead {
   font-family: 'vegurregular', Helvetica, Arial, sans-serif;
-  color: var(--dark-blue);
+  color: rgba(45,59,106,1.0);
 }
 
 h1, h2, h3 {
@@ -75,7 +64,7 @@ p, .lead {
   margin-bottom: 1rem;
 }
 
-p, li, .navbar-brand {color: var(--dark-blue);}
+p, li, .navbar-brand {color: rgba(45,59,106,1.0);}
 
 html {
   font-size: 16px;
@@ -96,17 +85,17 @@ body {
 
 @media (max-width: 768px) {
   .navbar-default {
-    background: var(--white-solid-bg);
+    background: rgba(255,255,255,1.0);
   }
 }
 
 @media (min-width: 768px) {
   .navbar-default {
-    background: var(--white-bg);
+    background: rgba(255,255,255,0.6);
   }
 }
 
-.rust {color:var(--rust-brown);}
+.rust {color: rgba(106,92,45,1.0);}
 
 .twoRemT {margin-top:2rem;}
 .twoRemB {margin-bottom:2rem;}
@@ -118,26 +107,26 @@ body {
 }
 
 .top-nav-collapse {
-  background: var(--white-solid-bg);
+  background: rgba(255,255,255,1.0);
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: var(--dark-blue);
+  color: rgba(45,59,106,1.0);
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover  {
-    color: var(--white-solid-bg);
-    background-color: var(--mid-blue)
+    color: rgba(255,255,255,1.0);
+    background-color: rgba(76,99,167,1.0);
   }
 
 
 .blockquote {
-  color: var(--rust-brown);
+  color: rgba(106,92,45,1.0);
   font-size: 1.5rem;
   font-style: italic;
   border-left-width: 5px;
   border-left-style: solid;
-  border-left-color: var(--mid-blue);
+  border-left-color: rgba(76,99,167,1.0);
 }
 
 .about-section, .portfolio-section, .intro-section, .services-section {
@@ -171,7 +160,7 @@ body {
 }
 
 .about-section, .portfolio-section {   
-	background: var(--light-blue-bg);
+	background: rgba(132,208,240,0.6);
   border-top: #fff solid 20px;
   border-bottom: #fff solid 20px;
 }
@@ -181,5 +170,5 @@ body {
   text-align: left;
 }
 .greytransparent {
-background-color: var(--light-grey-bg);
+background-color: rgba(245,245,245,0.4);
 }
