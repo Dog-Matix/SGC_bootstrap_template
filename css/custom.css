@@ -171,6 +171,16 @@ body {
   background-image: url('../img/contact-background.jpg');
   text-align: left;
 }
+
+.footer-section {
+  font-size: 0.75rem;
+  min-height: 50px;
+  background: #fff;
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e7e7e7;
+}
+
 .greytransparent {
 background-color: rgba(245,245,245,0.4);
 }
