@@ -33,7 +33,7 @@
   //do Captcha check, make sure the submitter is not a robot:)...
   $captcha_url = 'https://www.google.com/recaptcha/api/siteverify';
   $captcha_header = 'Content-type: application/x-www-form-urlencoded';
-  $captcha_post_data = http_build_query(array('secret' => getenv('RECAPTCHA_SECRET_KEY'), 'response' => $_POST["g-recaptcha-response"]));
+  $captcha_post_data = http_build_query(array('secret' => getenv('6LeZOxQUAAAAANrKGswM6l_1rirhLqbXJuGIEcnX'), 'response' => $_POST["g-recaptcha-response"]));
   // prefer cURL over #file_get_contents...
   if (function_exists('curl_init')) {
     $ch = curl_init();
