@@ -9,7 +9,7 @@ $subject = 'New Message from SG Consulting websites Contact Form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you for your interest, I will get back to you soon!';
 $errorMessage = 'There are currently issues sending your message. Your message was not sent. Please try again later';
-$recaptchaSecret = '6LeZOxQUAAAAANrKGswM6l_1rirhLqbXJuGIEcnX';
+$recaptchaSecret = 'SECRET KEY GOES HERE';
 
 // let's do the sending
 
